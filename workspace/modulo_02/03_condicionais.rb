@@ -1,5 +1,11 @@
-#estrutura condicional ternaria 
+#estrutura condicional ternaria
 sexo = 'M'
+
+# if sexo == 'M'
+  # puts 'Masculino'
+# else
+  # puts 'Feminino'
+# end
 
 sexo == 'M' ? (puts 'Masculino') : (puts 'Feminino')
 
@@ -34,6 +40,8 @@ end
 print 'Digite um número:'
 
 x = gets.chomp.to_i
-if x > 2
+if x >= 2
     puts 'x é maior que 2'
+else
+  puts 'x é menor que 2'
 end
