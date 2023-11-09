@@ -1,7 +1,6 @@
-class Pessoa
-    def falar
+class People
+    def speak
     "Olá, pessoal!"
     end
 end
 
-puts p.falar
