@@ -21,7 +21,5 @@ p1 = People.new
 puts p1.speak("Olá, fulano de tal!")
 puts p1.speak2("Caio")
 puts p1.speak3("Oi!", "Yes")
-  puts p1.speak2("Caio")
-  puts p1.speak3("Oi!", "Yes")
 
 p2 = People.new(5)
