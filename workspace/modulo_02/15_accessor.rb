@@ -19,7 +19,6 @@ p1.set_name = "Josue" #setter
 p1.set_name = "Julia" #setter
 puts p1.get_name #getter
 
-
 # def initializa(name = "teste")
     # @name = name
   # end
@@ -36,4 +35,5 @@ puts p1.get_name #getter
 
 # class Person
   # attr_accessor :name
+  
   

@@ -9,7 +9,7 @@ class Person
   
   def speak
     "Olá, pessoal!"
-   end
+  end
 end
 
 p1 = Person.new
@@ -21,7 +21,7 @@ puts p2.imprimir_nome
 #teste
 
 puts ('Digite seu nome')
-  name = gets.chomp
+name = gets.chomp
 
 puts '=============='
 
