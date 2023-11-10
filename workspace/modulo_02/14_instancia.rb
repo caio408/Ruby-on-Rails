@@ -1,4 +1,4 @@
-class People
+class Person
   def initialize(nome_fornecido = "indigente")
     @nome = nome_fornecido
   end
@@ -12,18 +12,18 @@ class People
    end
 end
 
-p1 = People.new
+p1 = Person.new
 puts p1.imprimir_nome
 
-p2 = People.new('Caio')
+p2 = Person.new('Caio')
 puts p2.imprimir_nome
 
 #teste
 
 puts ('Digite seu nome')
-name = gets.chomp
+  name = gets.chomp
 
 puts '=============='
 
-p = People.new(name)
+p = Person.new(name)
 puts p.imprimir_nome

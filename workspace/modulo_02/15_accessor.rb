@@ -1,4 +1,4 @@
-class People
+class Person
   # attr_accessor :name
   def initializa(name = "teste")
     @name = name
@@ -13,7 +13,7 @@ class People
   end
 end
 
-p1 = People.new
+p1 = Person.new
 p1.set_name = "Caio" #setter
 p1.set_name = "Josue" #setter
 p1.set_name = "Julia" #setter
@@ -31,8 +31,9 @@ puts p1.get_name #getter
   # def get_name
     # @name
   # end
+  
 # ALL ABOVE CAN BE REPLACED BY
 
-# class People
+# class Person
   # attr_accessor :name
   

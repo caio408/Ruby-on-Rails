@@ -14,7 +14,7 @@ class LegalPerson <Person
   attr_accessor :cnpj
   
   def pay_supplier
-    puts "Pagando fornecedor"
+    "Pagando fornecedor"
   end
 end
 
@@ -46,7 +46,7 @@ puts p2.speak('Hello!')
 puts '===================='
 
 
-p2 = LegalPerson.new
+p2 = LegalPerson.new #A variavel p2 passa a ser LegalPerson
 # setter
 p2.name = 'GaleriTech'
 p2.email = 'GaleriT@email.com'
