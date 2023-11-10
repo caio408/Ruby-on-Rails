@@ -1,6 +1,6 @@
 class Person
     def speak
-    "Olá, pessoal!"
+    'Olá, pessoal!'
     end
 end
 
