@@ -36,4 +36,3 @@ puts p1.get_name #getter
 # class Person
   # attr_accessor :name
   
-  
