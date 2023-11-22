@@ -1,7 +1,0 @@
-pt-BR:
-  enumerations:
-    phone_type:
-      residential: 'Residencial'
-      mobile: 'Celular'
-      other: 'Outros'
-      work: 'Trabalho'
